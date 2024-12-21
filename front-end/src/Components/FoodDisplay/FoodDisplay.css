@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Outfit:wght@100..900&family=Satisfy&family=Shadows+Into+Light&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.food-display h2{
+    color:rgba(12, 8, 7, 0.945);
+    font-family: 'Courgette', sans-serif;
+    font-size: max(3vw, 24px);
+    font-weight: 600;
+
+    
+}
+
+.food-display{
+    margin-top: 30px;
+
+}
+
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 20px;
+    row-gap: 50px;
+    
+}
+
